@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smoothie Machine</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Build Your Perfect Smoothie</h1>
+  <form id="smoothie-form">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" required><br><br>
+
+    <label for="ingredients">Choose Ingredients ($2 each):</label><br>
+    <input type="checkbox" value="Strawberry" id="strawberry"> Strawberry<br>
+    <input type="checkbox" value="Banana" id="banana"> Banana<br>
+    <input type="checkbox" value="Mango" id="mango"> Mango<br>
+    <input type="checkbox" value="Spinach" id="spinach"> Spinach<br><br>
+
+    <label for="size">Smoothie Size:</label>
+    <select id="size">
+      <option value="Small">Small ($5)</option>
+      <option value="Medium">Medium ($7)</option>
+      <option value="Large">Large ($9)</option>
+    </select><br><br>
+
+    <label for="extras">Extras ($1 each):</label><br>
+    <input type="checkbox" value="Protein Powder" id="protein"> Protein Powder<br>
+    <input type="checkbox" value="Chia Seeds" id="chia"> Chia Seeds<br><br>
+
+    <button type="button" id="order-btn">Order</button>
+  </form>
+
+  <div id="output">
+    <h2>Order Summary</h2>
+    <p id="summary"></p>
+    <p id="total"></p>
+    <img id="smoothie-image" src="" alt="Your Smoothie" style="display:none;">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

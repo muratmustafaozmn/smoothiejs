@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #5a2;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label, select, input {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  #output {
+    margin: 20px auto;
+    max-width: 400px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+  
+  #smoothie-image {
+    margin-top: 10px;
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
